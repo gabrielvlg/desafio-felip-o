@@ -1,5 +1,5 @@
-let nome = gets();
-let xp = gets();
+let nome = prompt();
+let xp = prompt();
 
 xp = Number(xp);
 let nivel;
@@ -25,4 +25,4 @@ if(xp <= 1000){
 
 let Resultado = `O Herói de nome ${nome} está no nível de ${nivel}`;
   
-print(Resultado);
+console.log(Resultado)
